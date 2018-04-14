@@ -1,0 +1,10 @@
+.large {
+    display: block;
+    position: absolute;
+    top: 10%;
+    bottom: 10%;
+    right: 30%;
+    left: 30%;
+    width: 600px;
+    height: 500px;
+}

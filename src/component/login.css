@@ -1,0 +1,41 @@
+@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+body{
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+.logo{
+    position: absolute;
+    width: 200px;
+    margin: -12px 0px 0px -12px;
+    padding: 0px
+}
+
+
+#polina {
+    font-family: Agenda-Light, Agenda Light, Agenda, Arial Narrow, sans-serif;
+    font-weight:100;
+    background: transparent;
+    color: white;
+    padding: 2%;
+    width: 31%;
+    margin: auto 10% 10% 35% ;
+    float: left;
+    border-radius: 2%;
+    box-shadow: grey;
+    display: block;
+}
+
+@media screen and (max-width: 500px) {
+    #polina{
+        width:90%;
+        margin-top: -50% !important;
+    }
+    video{
+        display: none;
+    }
+}
+@media screen and (max-device-width: 800px) {
+    #bgvid { display: none; }
+}

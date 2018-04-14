@@ -1,0 +1,60 @@
+.App {
+    text-align: center;
+}
+
+.App-logo {
+    animation: App-logo-spin infinite 20s linear;
+    height: 80px;
+}
+
+.App-header {
+    background-color: skyblue;
+    height: 80px;
+    padding: 20px;
+    color: white;
+}
+
+.appbarcss {
+    font-family: gabriola;
+    font-size: 20px
+}
+
+.footercss {
+    background-color: #29B3CB;
+    color: white;
+    padding: 15px;
+    float: left;
+    position: fixed;
+    width: 100%;
+    bottom: 0%;
+    overflow: hidden;
+    font-family: Gabriola;
+    font-size: 20px;
+}
+
+.App-title {
+    font-size: 1.5em;
+}
+
+.main {
+    float: right;
+    height: 100%;
+
+}
+
+.App-intro {
+    font-size: large;
+    display: block;
+    overflow: scroll;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
